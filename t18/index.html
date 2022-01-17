@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+	.menu{
+	background:linear-gradient(to right,white,white,blue);
+	width:100%;
+	height:50px;
+	}
+	
+	body{
+		margin:0px;
+		background:radial-gradient(ellipse at center 150px,blue,black 65%);
+		color:white;
+	}
+	a{
+		margin:10px;
+		text-decoration:none;
+		font-family:cursive;
+	}
+	a:hover{
+		color:red;
+	}
+		.input:invalid{
+		background:red;
+	}
+	.input:valid{
+		background:green;
+	}
+	.knopka{
+	background:linear-gradient(to right,blue,red);
+	color:white;
+	border:1px solid blue;
+	padding:10px;
+	}
+	<input type="submit" value="Перевірка"class="knopka">
+</style>
+</head>
+<body>
+
+<div class="menu">
+	<br>
+	<a href="">Анкети</a> <a href="">Результат</a>
+	<div>
+	<h1 align="center">Анкета учасника</h1>
+	</form>
+	<label>Введіть ваше ім'я</label><br>
+	<input type="text"class="red">
+	<br>
+	<label>Введіть ваш клас</label><br>
+	<input type="number" min="1" max="12"class="red">
+	<br>
+	<label>Введіть ваш email</label><br>
+	<input type="email"class="red">
+	<br>
+	<label>Які мови ви знаєте?</label><br>
+	<input type="checkbox" name="a1">Українська<br>
+	<input type="checkbox" name="a1">Російська<br>
+	<input type="checkbox" name="a1">Англійська<br>
+	<input type="checkbox" name="a1">Німецька<br>
+	<input type="submit" value="Перевірка">
+</body>
+</html>
